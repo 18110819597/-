@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todoList</title>
+    <style>    
+        #todoList {
+            list-style: none;
+            margin:20px 0px;
+            padding:0;
+            width:600px;
+        }
+        #todoList li {
+            margin-bottom:5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background:#f5f5f5;
+            position: relative;
+        }
+        input {
+            padding:10px;
+            font-size:16px;
+            border:1px solid #ccc;
+            
+        }
+        button {
+            color: black;
+            padding:10px 20px;
+            border:1px solid #ccc;
+            background: #f5f5f5;
+            outline: none;
+            cursor: pointer;
+            background-color: pink;
+            font-weight: 600;
+        }
+
+        #todoList span {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+	
+<body>
+    <input type="text" id="content"> 
+    <button id="btn">添加</button>
+    <ul id="todoList">
+        
+    </ul>
+    
+
+    
+</body>
+</html>
